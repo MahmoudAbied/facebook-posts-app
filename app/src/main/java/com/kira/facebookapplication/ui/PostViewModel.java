@@ -54,5 +54,6 @@ public class PostViewModel extends ViewModel {
 //        observable.subscribe(observer);
 
 observable.subscribe(o -> postsMutableLiveData.setValue(o),e-> Log.d(TAG, "getPostError: "+e));
+
     }
 }
